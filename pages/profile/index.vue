@@ -1,9 +1,21 @@
 <template>
-  <h1>Profile</h1>
+  <div class="profile-page">
+    <the-navbar />
+    <div class="profile-card">
+      <!-- <NGOProfile /> -->
+      <PhilanthropistProfile />
+    </div>
+  </div>
 </template>
 
 <script>
-export default {};
+import NGOProfile from "~/components/ProfilePageCard/NGOProfile.vue";
+import PhilanthropistProfile from "~/components/ProfilePageCard/PhilanthropistProfile.vue";
+import TheNavbar from "~/components/TheNavbar.vue";
+
+export default {
+  components: { NGOProfile, PhilanthropistProfile, TheNavbar },
+};
 </script>
 
 <style scoped>

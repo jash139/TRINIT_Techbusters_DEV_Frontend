@@ -1,6 +1,6 @@
 <template>
   <div>
-    <the-nav-bar />
+    <TheNavbar />
     <div class="home-page">
       <div class="profile-card">
         <NGOProfileCard />
@@ -17,9 +17,9 @@
 
 <script>
 import NGOProfileCard from "../ProfileCards/NGOProfileCard.vue";
-import TheNavBar from "../TheNavBar.vue";
+import TheNavbar from "../TheNavbar.vue";
 export default {
-  components: { TheNavBar, NGOProfileCard },
+  components: { TheNavbar, NGOProfileCard },
 };
 </script>
 

@@ -1,7 +1,9 @@
 <template>
   <header>
     <nav>
-      <div class="logo">Altruist</div>
+      <nuxt-link exact to="/" class="logo">
+        <div class="logo">Altruist</div>
+      </nuxt-link>
       <ul class="nav-links">
         <li>
           <nuxt-link exact to="/"
@@ -111,5 +113,6 @@ nav {
   text-transform: uppercase;
   font-weight: 600;
   color: rebeccapurple;
+  text-decoration: none;
 }
 </style>
