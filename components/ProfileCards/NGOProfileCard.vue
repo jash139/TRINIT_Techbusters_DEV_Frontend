@@ -32,7 +32,6 @@
         stroke-linejoin="round"
       />
     </svg>
-
     <h3 class="name">NGO Profile</h3>
     <ul class="agendas">
       <li>
@@ -79,6 +78,10 @@
         0123456789
       </div>
     </div>
+    <div class="funds">
+      <h5 class="funds-heading">Funds:</h5>
+      <p class="funds-received"><span class="currency">₹</span>18,000/20,000</p>
+    </div>
   </div>
 </template>
 
@@ -122,5 +125,14 @@ a {
 }
 .contact-details svg {
   margin-right: 1rem;
+}
+.funds-received {
+  color: rebeccapurple;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.currency {
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
 }
 </style>
