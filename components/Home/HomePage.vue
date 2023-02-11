@@ -5,6 +5,9 @@
       <div class="profile-card">
         <NGOProfileCard />
       </div>
+      <div class="ngos-main">
+        <HomeMainCard />
+      </div>
       <div class="news-events-card">
         <NewsEventsCard />
       </div>
@@ -22,12 +25,18 @@ export default {
 
 <style scoped>
 .home-page {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: auto auto auto; */
+  gap: 1rem;
   max-width: 1300px;
   margin: auto;
 }
 .profile-card {
+  position: sticky;
+  top: 10vh;
+}
+.news-events-card {
   position: sticky;
   top: 10vh;
 }

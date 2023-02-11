@@ -42,6 +42,7 @@ export default {};
 .news-events-card {
   background-color: white;
   max-width: 280px;
+  width: 100%;
   padding: 2rem 1.5rem;
   border-radius: 5px;
 }

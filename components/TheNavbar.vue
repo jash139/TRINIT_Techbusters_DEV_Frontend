@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav>
-      <div class="logo">NGO</div>
+      <div class="logo">Altruist</div>
       <ul class="nav-links">
         <li>
           <nuxt-link exact to="/"
