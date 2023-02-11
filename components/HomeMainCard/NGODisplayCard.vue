@@ -63,4 +63,7 @@ export default {};
   padding: 0;
   font-weight: 600;
 }
+.agenda {
+  font-size: 0.8rem;
+}
 </style>

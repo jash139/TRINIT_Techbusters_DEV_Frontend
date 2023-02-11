@@ -47,7 +47,8 @@ export default {};
   border-radius: 5px;
 }
 .heading {
-  font-size: 1.5rem;
+  margin-top: 0;
+  font-size: 1rem;
 }
 .name {
   font-size: 1rem;
@@ -55,6 +56,8 @@ export default {};
 }
 .news {
   color: rgb(124, 124, 124);
+  font-size: 0.8rem;
+  line-height: 1.5;
 }
 .event {
   border-bottom: 1px solid rgb(226, 226, 226);

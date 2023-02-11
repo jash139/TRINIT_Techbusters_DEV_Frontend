@@ -6,8 +6,8 @@
         <li>
           <nuxt-link exact to="/"
             ><svg
-              width="33"
-              height="33"
+              width="25"
+              height="25"
               viewBox="0 0 33 33"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -22,8 +22,8 @@
         <li>
           <nuxt-link to="/community"
             ><svg
-              width="34"
-              height="31"
+              width="25"
+              height="25"
               viewBox="0 0 34 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -38,8 +38,8 @@
         <li>
           <nuxt-link to="/profile"
             ><svg
-              width="38"
-              height="38"
+              width="25"
+              height="25"
               viewBox="0 0 38 38"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -87,15 +87,16 @@ header {
   position: sticky;
   top: 0;
   z-index: 5;
+  background-color: white;
+  margin-bottom: 1rem;
 }
 nav {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
   margin: auto;
   min-height: 9vh;
-  max-width: 95%;
-  padding: 0 1rem;
+  max-width: 1300px;
 }
 .nav-links {
   box-sizing: border-box;
@@ -103,7 +104,12 @@ nav {
   list-style: none;
 }
 .nav-links li {
-  margin: 0 0.5rem;
+  margin: 0 1rem;
   padding: 0;
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rebeccapurple;
 }
 </style>

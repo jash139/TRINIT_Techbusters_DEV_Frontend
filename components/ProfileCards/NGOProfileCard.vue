@@ -98,13 +98,15 @@ export default {};
   border-radius: 5px;
 }
 .name {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .agendas {
   margin: 0;
   padding: 0;
   padding-left: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
 }
 .agendas li {
   margin: 0.5rem 0;
@@ -112,6 +114,7 @@ export default {};
 }
 .contact-details {
   margin: 2rem 0 1rem;
+  font-size: 0.8rem;
 }
 a {
   color: rgb(124, 124, 124);

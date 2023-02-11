@@ -34,10 +34,10 @@ export default {
 }
 .profile-card {
   position: sticky;
-  top: 10vh;
+  top: 11vh;
 }
 .news-events-card {
   position: sticky;
-  top: 10vh;
+  top: 11vh;
 }
 </style>
